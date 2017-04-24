@@ -1,0 +1,189 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- Gambar 8.12: kuis.html -->
+<!-- Kuis online dengan JavaScript. -->
+<html xmlns = "http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Matematika 2011/title>
+        <script type = "text/JavaScript">
+
+            function periksa1()
+            {
+            var kuisKu = document.getElementById( "kuis1" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 1 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa2()
+            {
+            var kuisKu = document.getElementById( "kuis2" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 1 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa3()
+            {
+            var kuisKu = document.getElementById( "kuis3" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 0 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa4()
+            {
+            var kuisKu = document.getElementById( "kuis4" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 0 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa5()
+            {
+            var kuisKu = document.getElementById( "kuis5" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 2 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+
+        </script>
+    </head>
+    <body onload = "mulaiPewaktu()">
+        <form id = "kuis1" onsubmit = "periksa1()" action = "">
+            <p>1. Dalam segitiga s i k u - s i k u ABC, diketahui panjang sisi BC = a dan ?ABC = ﬂ. Panjang garis tinggi AD = Ö 
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>) a sin2ﬂ cosﬂ </label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>a sinﬂ cosﬂ </label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>a sin2ﬂ</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>a sinﬂ cos2ﬂ</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis2" onsubmit = "periksa2()" action = "">
+            <p>2.  Sebuah tiang bendera tingginya 3 m mempunyai bayangan di tanah sepanjang 2m. Pada saat yang sama pohon cemara mempunyai bayangan ditanah sepanjang 10 m. Maka tinggi pohon cemara tersebut adalah...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>15m</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>16m</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>20m</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>25m</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis3" onsubmit = "periksa3()" action = "">
+            <p>3.  Pada deret geometri diketahui S = 7 , S = 63 maka S = ... 
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>255</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>257</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>511</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>513</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis4" onsubmit = "periksa4()" action = "">
+            <p>4. Pada saat awal diamati 8 virus jenis tertentu. Setiap 24 jam masing-masing virus membelah diri menjadi dua. Jika setiap 96 jam seperempat dari seluruh virus dibunuh, maka banyaknya virus pada hari ke-6 adalah ...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>96</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>128</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>192</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>224</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis5" onsubmit = "periksa5()" action = "">
+            <p>5.  Jika jumlah semua suku deret geometri tak hingga adalah 96 dan jumlah semua sukunya yang berindeks ganjil adalah 64, maka suku ke-4 deret tersebut adalah...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>6</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>8</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>10</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>12</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <script type="text/javascript">  
+
+            var detik = 0;
+
+            // dipanggil ketika halaman dimuat untuk memulai pewaktu
+            function mulaiPewaktu()
+            {
+            // 1000 milidetik = 1 setik
+            window.setInterval( "perbaruiWaktu()", 1000 );
+            } // akhir fungsi mulaiPewaktu
+
+            // dipanggil setiap 1000 milidetik untuk memperbarui pewaktu
+            function perbaruiWaktu()
+            {
+            ++detik;
+            document.getElementById( "sejauhIni" ).innerHTML = detik;
+            } // akhir fungsi perbaruiWaktu
+
+
+        </script>
+        <p>Waktu yang tersedia untuk mengisi soal:
+            <strong id = "sejauhIni">0</strong> <= 3600 detik</p> 
+    </body>
+</html>

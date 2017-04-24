@@ -1,0 +1,189 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- Gambar 8.12: kuis.html -->
+<!-- Kuis online dengan JavaScript. -->
+<html xmlns = "http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Ekonomi 2013</title>
+        <script type = "text/JavaScript">
+
+            function periksa1()
+            {
+            var kuisKu = document.getElementById( "kuis1" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 0 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa2()
+            {
+            var kuisKu = document.getElementById( "kuis2" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 1 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa3()
+            {
+            var kuisKu = document.getElementById( "kuis3" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 3 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa4()
+            {
+            var kuisKu = document.getElementById( "kuis4" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 3 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa5()
+            {
+            var kuisKu = document.getElementById( "kuis5" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 3 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+
+        </script>
+    </head>
+    <body onload = "mulaiPewaktu()">
+        <form id = "kuis1" onsubmit = "periksa1()" action = "">
+            <p>1. Aturan-aturan rumah tangga untuk memenuhi kebutuhan sehari-hari merupakan pengertian dari...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Ekonomi</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Ilmu ekonomi</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Kebutuhan</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Keinginan</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis2" onsubmit = "periksa2()" action = "">
+            <p>2.  Bidang studi yang mempelajari tentang pemilihan sumber daya yang terbatas untuk memenuhi kebutuhan yang tidak terbatas adalah pengertian dari...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Ekonomi</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Ilmu ekonomi</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Kebutuhan</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Keinginan</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis3" onsubmit = "periksa3()" action = "">
+            <p>3.  Seorang siswa bernama Joni membeli seragam SMA berwarna putih – abu untuk keperluan dan kelengkapan sekolahnya. Dari pernyataan kasus di atas, Joni telah melakukan …
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Prinsip ekonomi</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Motif ekonomi</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Kebutuhan dan keinginan</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Tindakan ekonomi rasional</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis4" onsubmit = "periksa4()" action = "">
+            <p>4. Salah satu contoh perilaku prinsip ekonomi yang dilakukan seorang produsen adalah …
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Menyesuaikan pendapatan dengan pengeluaran</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Memilih kualitas barang</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Menawar barang serendah mungkin</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Menentukan biaya produksi sekecil mungkin</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis5" onsubmit = "periksa5()" action = "">
+            <p>5.  Kebutuhan yang harus dipenuhi untuk kelangsungan hidup disebut...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Kebutuhan individu</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Kebutuhan sekunder</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Kebutuhan tersier</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Kebutuhan primer</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <script type="text/javascript">  
+
+            var detik = 0;
+
+            // dipanggil ketika halaman dimuat untuk memulai pewaktu
+            function mulaiPewaktu()
+            {
+            // 1000 milidetik = 1 setik
+            window.setInterval( "perbaruiWaktu()", 1000 );
+            } // akhir fungsi mulaiPewaktu
+
+            // dipanggil setiap 1000 milidetik untuk memperbarui pewaktu
+            function perbaruiWaktu()
+            {
+            ++detik;
+            document.getElementById( "sejauhIni" ).innerHTML = detik;
+            } // akhir fungsi perbaruiWaktu
+
+
+        </script>
+        <p>Waktu yang tersedia untuk mengisi soal:
+            <strong id = "sejauhIni">0</strong> <= 3600 detik</p> 
+    </body>
+</html>

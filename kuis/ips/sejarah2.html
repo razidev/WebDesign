@@ -1,0 +1,189 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- Gambar 8.12: kuis.html -->
+<!-- Kuis online dengan JavaScript. -->
+<html xmlns = "http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Sejarah 2011/title>
+        <script type = "text/JavaScript">
+
+            function periksa1()
+            {
+            var kuisKu = document.getElementById( "kuis1" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 1 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa2()
+            {
+            var kuisKu = document.getElementById( "kuis2" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 1 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa3()
+            {
+            var kuisKu = document.getElementById( "kuis3" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 0 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa4()
+            {
+            var kuisKu = document.getElementById( "kuis4" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 0 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa5()
+            {
+            var kuisKu = document.getElementById( "kuis5" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 2 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+
+        </script>
+    </head>
+    <body onload = "mulaiPewaktu()">
+        <form id = "kuis1" onsubmit = "periksa1()" action = "">
+            <p>1. Keadaan Jepang pada akhir kekuasaannya di Indonesia semakin buruk disebabkan karena..
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Kekalahan front ABCD com dalam peperangan di Laut Pasifik</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Semakin berjayanya Inggris dalam peperangan di Laut Pasifik</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Kekalahan Jepang melawan ABCD com di Laut Karang</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Teratasinya pengeluaran biaya perang yang besar</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis2" onsubmit = "periksa2()" action = "">
+            <p>2.  Sebab utama menyerahnya Jepang tanpa syarat pada sekutu pada 14 Agustus 1945 adalah...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Sekutu bekerjasama dengan Indonesia mengalahkan Jepang</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Jepang tidak dapat memperalat Indonesia melawanSsekutu</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Indonesia berhasil mengalahkan sekutu di Laut Pasifik</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Hirosima dan Nagasaki dijatuhi bom atom oleh Sekutu</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis3" onsubmit = "periksa3()" action = "">
+            <p>3.  Maksud pemerintah Jepang membentuk BPUPKI adalah...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Mempersiapkan bangsa Indonesia menjadi sebuah bangsa yang  merdeka</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Menarik perhatian bangsa Indonesia agar bersedia membantu Jepang</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Memberikan hak kepada bangsa Indonesia untuk memerintah sendiri</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Mempersiapkan pemindahan kekuasaan dari Jepang ke Indonesia</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis4" onsubmit = "periksa4()" action = "">
+            <p>4. Disetujuinya penghilangan kalimat “dengan menjalankan syariat Islam bagi pemeluknya” dalam Piagam Jakarta menunjukkan...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Mayoritas masyarakat Indonesia memeluk agama Islam</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Syariat Islam menjadi penghalang persatuan bangsa Indonesia</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Kurang dihayatinya makna syariat Islam oleh para anggota PPKI</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Kegagalan tokoh muslim di PPKI dalam mempertahankan kalimat tersebut</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis5" onsubmit = "periksa5()" action = "">
+            <p>5.  Alasan kalangan pemuda menuntut agar kemerdekaan Indonesia terlepas dari pengaruh Jepang adalah...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Kemerdekaan Indonesia harus lahir dari sikap yang radikal</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Rakyat Indonesia sudah begitu lama merindukan kemerdekaan</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>PPKI harus diikutsertakan dalam pelaksanaan proklamasi kemerdekaan</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Kemerdekaan Indonesia merupakan peristiwa yang sangat bersejarah bagi bangsa Indonesia</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <script type="text/javascript">  
+
+            var detik = 0;
+
+            // dipanggil ketika halaman dimuat untuk memulai pewaktu
+            function mulaiPewaktu()
+            {
+            // 1000 milidetik = 1 setik
+            window.setInterval( "perbaruiWaktu()", 1000 );
+            } // akhir fungsi mulaiPewaktu
+
+            // dipanggil setiap 1000 milidetik untuk memperbarui pewaktu
+            function perbaruiWaktu()
+            {
+            ++detik;
+            document.getElementById( "sejauhIni" ).innerHTML = detik;
+            } // akhir fungsi perbaruiWaktu
+
+
+        </script>
+        <p>Waktu yang tersedia untuk mengisi soal:
+            <strong id = "sejauhIni">0</strong> <= 3600 detik</p> 
+    </body>
+</html>

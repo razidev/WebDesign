@@ -1,0 +1,189 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- Gambar 8.12: kuis.html -->
+<!-- Kuis online dengan JavaScript. -->
+<html xmlns = "http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Ekonomi 2010</title>
+        <script type = "text/JavaScript">
+
+            function periksa1()
+            {
+            var kuisKu = document.getElementById( "kuis1" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 1 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa2()
+            {
+            var kuisKu = document.getElementById( "kuis2" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 2 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa3()
+            {
+            var kuisKu = document.getElementById( "kuis3" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 3 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa4()
+            {
+            var kuisKu = document.getElementById( "kuis4" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 0 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa5()
+            {
+            var kuisKu = document.getElementById( "kuis5" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 3 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+
+        </script>
+    </head>
+    <body onload = "mulaiPewaktu()">
+        <form id = "kuis1" onsubmit = "periksa1()" action = "">
+            <p>1.Banjir bandang yang terjadi di beberapa tempat, telah mengakibatkan rusaknya lingkungan. Kerusakan lingkungan ini memerlukan perbaikan yang cukup lama. Kerusakan lingkungan dapat menjadi penyebab kelangkaan karena ....
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>kebutuhan yang disediakan alam terbatas</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>sumber daya alam yang rusak akibat ulah manusia</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>keterbatasan sumber daya manusia untuk mengolah sumber daya yang ada</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>peningkatan kebutuhan manusia yang jauh lebih cepat</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis2" onsubmit = "periksa2()" action = "">
+            <p>2. Kondisi perekonomian di era globalisasi akan ditandai oleh persaingan bebas, lalu lintas dan jasa tanpa hambatan, serta harga terbentuk oleh mekanisme pasar, maka sistem ekonomi yang tepat diterapkan adalah sistem ekonomi ....
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Tradisional</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Komando</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Pasar</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Campuran</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis3" onsubmit = "periksa3()" action = "">
+            <p>3. Pada pasar sepeda ditunjukan fungsi penawarannya Q = - 10 + 2P dan harga yang ditawarkan sebesar 15. Jika sepeda dikenakan pajak sebesar 3, maka jumlah yang ditawarkan sebanyak ....
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>13</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>15</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>18</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>23</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis4" onsubmit = "periksa4()" action = "">
+            <p>4. Suatu pasar yang memiliki karakteristik banyak penjual dan pembeli, barang yang diperjualbelikan bersifat homogen, informasi yang diperoleh pelaku ekonomi lengkap, produsen bebas dapat keluar masuk pasar dan harga terbentuk oleh mekanisme permintaan dan penawaran, pasar ini disebut pasar ....
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>persaingan sempurna</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>persaingan monopolistik</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>monopoli</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>oligopoli</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis5" onsubmit = "periksa5()" action = "">
+            <p>5.  Meningkatnya volume penjualan atau pembelian saham di pasar modal memberi indikasi bahwa aktivitas bisnis berbagai perusahaan berjalan dengan baik. Hal ini menggambarkan fungsi pasar modal sebagai ....
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>sarana badan usaha memperoleh tambahan modal</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>sarana pemerataan pendapatan</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>sarana untuk meningkatkan kapasitas produksi</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>salah satu indikator situasi perekonomian negara</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <script type="text/javascript">  
+
+            var detik = 0;
+
+            // dipanggil ketika halaman dimuat untuk memulai pewaktu
+            function mulaiPewaktu()
+            {
+            // 1000 milidetik = 1 setik
+            window.setInterval( "perbaruiWaktu()", 1000 );
+            } // akhir fungsi mulaiPewaktu
+
+            // dipanggil setiap 1000 milidetik untuk memperbarui pewaktu
+            function perbaruiWaktu()
+            {
+            ++detik;
+            document.getElementById( "sejauhIni" ).innerHTML = detik;
+            } // akhir fungsi perbaruiWaktu
+
+
+        </script>
+        <p>Waktu yang tersedia untuk mengisi soal:
+            <strong id = "sejauhIni">0</strong> <= 3600 detik</p> 
+    </body>
+</html>

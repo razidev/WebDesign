@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="shortcut icon" href="favicon/unjfavicon.ico">
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css">        
+        <link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css"> 
+        <link rel="stylesheet" href="css/fontawesome.css" type="text/css"> 		 
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/tabbedmenu.css" rel="stylesheet">
+
+        <script src="js/jquery.js"></script>		 
+        <script src="js/bootstrap.js"></script> 
+
+        <title>Beranda</title>
+    </head>
+    <body> 
+        <!-- *************************************************   S T A R T___ N A V B A R  ******************************* -->
+
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="#">8 Academy</a>
+
+                    <div class="nav-collapse">
+                        <ul class="nav">		
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-credit-card"></i> Voucher <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="voucher-beli.htm"> Beli </a></li>
+                                    <li><a href="voucher-info.htm"> Info </a></li>
+                                </ul>
+                            </li>				
+                            <li><a href="KotakSaran.htm"><i class="fa fa-inbox"></i> Kirim Saran </a></li>				
+                            <li><a href="SignIn.htm"><i class="fa fa-sign-in"></i> Masuk </a></li>
+                            <li><a href="SignUp.html"><i class="fa fa-sign-out"></i> Daftar </a></li>
+                        </ul>
+
+                        <!-- <form class="navbar-search pull-right" action="">
+                                <input type="search" class="search-query span3" placeholder="Get latest update about our app via email">
+                        </form>	 -->
+
+                        <form class="navbar-form form-search pull-right" method="POST" action="https://bootsnipp.com/search" accept-charset="UTF-8">
+                            <div class="input-append">
+                                <input type="text" name="q" class="span2 search-query" placeholder="Search">
+                                <button type="submit" class="btn">Go!</button>
+                            </div> <!-- input-append -->
+                        </form>
+                    </div> <!--  -->
+                </div><!-- /.nav-collapse -->
+            </div><!-- /.container -->
+        </div><!-- navbar-inner -->
+    </div><!-- navbar navbar-fixed-top -->
+    <div id="menu1">
+        <div class="container">
+            <ul>
+                <li><a href="index.htm">Beranda</a></li>
+                <li class="dropdown">                   
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"></i> Materi <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="soal ipa.htm"> IPA</a></li>
+                        <li><a href="soal ips.htm"> IPS</a></li>
+                        <li><a href="soal tpa.htm"> TPA</a></li>
+                    </ul>
+                <li class="dropdown">                   
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"></i>Kumpulan Soal<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="ipa.htm"> IPA</a></li>
+                        <li><a href="ips.htm"> IPS</a></li>
+                        <li><a href="TPA.htm"> TPA</a></li> </ul>
+                <li><a href="info.html">Info</a></li>
+                <li><a href="tentang.html">Tentang Kami</a></li>
+                <a href="#" <li ><img src="img/8academy.png"</li></a>
+            </ul>
+        </div>
+    </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="img/logo1.jpg" alt="First slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>SEMANGAT IKUT SBMPTN!</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/1355399337285191973.png" alt="Second slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Pola Penerimaan Mahasiswa Baru di PTN</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/grafikUN.jpg" alt="Third slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Grafik Nilai UN</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="fa fa-arrow-circle-left"></i></a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="fa fa-arrow-circle-right"></i></a>
+        <!-- </div>--> <!-- /.carousel -->
+        <div id="menu2">
+            <li><a href="#promo3">Apa Saja Isinya? </a></li>
+            <li><a href="#komentar">Apa Kata Mereka ?</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#homeBoxes">Info</a></li>
+        </div><!--menu2-->
+        <div id="promo3">     
+            <main>
+                <h3> Apa Saja Isinya? </h3>
+                <input id="tab1" type="radio" name="tabs" checked>
+                <label for="tab1">Matematika</label>
+                <input id="tab2" type="radio" name="tabs">
+                <label for="tab2">IPA</label>
+                <input id="tab3" type="radio" name="tabs">
+                <label for="tab3">IPS</label>
+                <input id="tab4" type="radio" name="tabs">
+                <label for="tab4">Bahasa</label>
+
+                <section id="content1">
+                    <p>SBMPTN Soal Matematika Dasar</p>
+                    <p>SBMPTN Kunci Jawaban Matematika Dasar</p>
+                    <p>SBMPTN Soal Matematika IPA</p>
+                    <p>SBMPTN Kunci Jawaban Matematika IPA</p>
+                </section>
+                <section id="content2">
+                    <p>SBMPTN Soal Fisika</p>
+                    <p>SBMPTN Kunci Jawaban Fisika</p>
+                    <p>SBMPTN Soal Biologi</p>
+                    <p>SBMPTN Kunci Jawaban Biologi</p>
+                    <p>SBMPTN Soal Kimia</p>
+                    <p>SBMPTN Kunci Jawaban Kimia</p>
+                </section>
+                <section id="content3">
+                    <p>SBMPTN Soal Sosiologi</p>
+                    <p>SBMPTN Kunci Jawaban Sosiologi</p>
+                    <p>SBMPTN Soal Geografi</p>
+                    <p>SBMPTN Kunci Jawaban Geografi</p>
+                    <p>SBMPTN Soal Ekonomi</p>
+                    <p>SBMPTN Kunci Jawaban Ekonomi</p>
+                    <p>SBMPTN Soal Sejarah</p>
+                    <p>SBMPTN Kunci Jawaban Sejarah</p>
+                </section>
+                <section id="content4">
+                    <p>SBMPTN Soal Bahasa Inggris</p>
+                    <p>SBMPTN Kunci Jawaban Bahasa Inggris</p>
+                    <p>SBMPTN Soal Bahasa Indonesia</p>
+                    <p>SBMPTN Kunci Jawaban Bahasa Indonesia</p>
+                </section>
+            </main>
+            <!--</div>promo3-->
+
+            <div id="komentar">
+                <h3> Apa Kata Mereka ? </h3>
+                <div class="kotak"><font size="4" color="#ffffff">
+                    <p>8 academy membantu banget buat tau gimana soal-soal sbmptn yang nanti bakal keluar. Desain web nya juga bagus, walaupun simple, tapi elegan. Sukses terus buat 8 academy! ;)</p>
+                    </font>
+                </div>
+                <div class="kotak"><font size="4" color="#ffffff">
+                    <p>Makasih buat 8 academy yang udah nyediain kumpulan soal SBMPTN. Awalnya bingung mau cari soal dimana, tapi pas ketemu web ini, langsung ga cari-cari yang lain lagi deh :D</p>
+                    </font></div>
+                <div class="kotak">
+                    <font size="4" color="#ffffff">
+                    <p>8 academy mempermudah saya untuk memberikan latihan-latihan soal kepada murid-murid bimbingan saya. Isinya pun lengkap, serta ada kunci jawabannya juga. Jadi kalau ada soal yang tidak dimengerti, bisa langsung cek jawabannya. Terimakasih 8 academy.</p>
+                    </font>
+                </div>
+                <div class="foto">
+                    <p><img src="img/IMG_7755.png" width="90" height="90"></p>
+                    <font size="4"><p>Firyal Asna</p>
+                    <p>"Calon Mahasiswa"</p></font>
+                </div>
+                <div class="foto">
+                    <p><img src="img/IMG_0356.png" width="90" height="90"></p>
+                    <font size="4"><p>Evelyn Berthalia</p>
+                    <p>"Pelajar SMA"</p></font>
+                </div>
+                <div class="foto">
+                    <p><img src="img/DSC_0782.png" width="90" height="90"></p>
+                    <font size="4"><p>Yeni Nuraeni</p>
+                    <p>"Guru Privat Bimbingan Belajar"</p></font>
+                </div>
+            </div><!--komentar-->
+            <div id="video">
+                <h3> Video</h3>
+                <center><ul>
+                        <video width="300" height="280" controls><source src="video/---01  Postulat Dasar  Postulat 06.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+                        <video width="300" height="280" controls><source src="video/---01  Postulat Dasar  Postulat 07.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+                        <video width="300" height="280" controls><source src="video/---01  Postulat Dasar  Postulat 08 - YouTube.mp4"  type="video/mp4">Your browser does not support the video tag.</video>
+                        <video width="300" height="280" controls><source src="video/---01  Postulat Dasar  Postulat 09 - YouTube.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+                    </ul></center>
+            </div>
+            <!-- produk -->     
+           <div id="homeBoxes">
+
+			<div class="homeBox">
+
+				<h2>Join Our Community !</h2>
+		  <h4>
+          <i class="fa fa-facebook"></i>
+            <a href="#">
+              8 Academy Multimedia Learning
+            </a>
+          </h4>
+          <h4>
+          <i class="fa fa-twitter"></i>
+            <a href="">
+              @8Academy
+            </a>
+          </h4>
+          <h4>
+          <i class="fa fa-google-plus"></i>
+            <a href="">
+              8 Academy Multimedia Learning
+            </a>
+          </h4>
+          <h4>
+          <i class="fa fa-youtube-play"></i>
+            <a href="">
+              8 Academy youtube channel
+            </a>
+          </h4>
+
+			</div>
+		<div id="promo1">
+			<div class="homeBox">
+
+				<h2>8 Academy</h2>
+
+                
+				<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        </div> <!-- modal-header -->
+        <div class="modal-body" >
+          <p class="p">Disini kamu akan diarahkan  untuk menonton video-video yang tepat, sehingga kamu bisa mempersiapkan diri belajar untuk ujian akademis secara lebih efektif dan juga efisien</p>
+        </div><!-- modal-body-->
+      </div><!-- modal-content -->
+    </div> <!-- modal-dialog -->
+  </div> <!-- myModal -->
+				<p>8 Academy merupakan Kumpulan artikel yang berisi panduan dan tips belajar langsung supaya kamu bisa belajar dengan lebih efektif untuk menghadapi tes akademis  Ujian Nasional, SBMPTN, SIMAK UI, maupun Ujian Mandiri Universitas lainnya.
+.</p>
+
+				<a href="#"  data-toggle="modal" data-target="#myModal"><strong>Lanjut Baca &raquo;</strong></a>
+
+
+		   </div>
+
+			<div class="homeBox last">
+
+				<h2>Contact US</h2>
+
+                <p><i class="icon-home icon-white"></i> Location: Jl. Rawamangun Raya </p>
+                <br>
+                <p><i class="fa fa-phone"></i> Phone: +6281908980420</p>
+                <br>
+				<p><i class="icon-envelope icon-white"></i> Email: <a href="mailto:8academy@gmail.com">8@academy.com</a></p>
+
+			</div>
+		</div>
+</div>
+            <div id="foot">
+                <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6 "> &copy;CopyRight 2014 by <i><strong>Kelompok 8.</strong></i> All Right Reserved.</div>
+                <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6">
+                    <div class="pull-right a-onblack">
+                        <a href="ketentuan.htm">Ketentuan Penggunaan</a> | 
+                        <a href="privacy.htm">Kebijakan Privacy</a>
+                    </div>
+                </div>
+            </div><!-- foot -->
+
+            </body>
+            </html>

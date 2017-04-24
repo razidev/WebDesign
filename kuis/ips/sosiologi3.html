@@ -1,0 +1,189 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- Gambar 8.12: kuis.html -->
+<!-- Kuis online dengan JavaScript. -->
+<html xmlns = "http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Sosiologi 2012</title>
+        <script type = "text/JavaScript">
+
+            function periksa1()
+            {
+            var kuisKu = document.getElementById( "kuis1" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 0 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa2()
+            {
+            var kuisKu = document.getElementById( "kuis2" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 1 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa3()
+            {
+            var kuisKu = document.getElementById( "kuis3" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 3 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa4()
+            {
+            var kuisKu = document.getElementById( "kuis4" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 1 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa5()
+            {
+            var kuisKu = document.getElementById( "kuis5" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 0 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+
+        </script>
+    </head>
+    <body onload = "mulaiPewaktu()">
+        <form id = "kuis1" onsubmit = "periksa1()" action = "">
+            <p>1.Beberapa remaja berusaha untuk tampil sama persis dengan tokoh yang dikagumi. Dalam proses interaksi sosial tersebut sangat dipengaruhi oleh factor….
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label> identifikasi </label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Simpati</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Motivasi</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Empati</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis2" onsubmit = "periksa2()" action = "">
+            <p>2. Mengucapkan salam ketika bertamu, menganggukkan kepala sebagai tanda hormat kepada orang lain, serta membuang sampah pada tempatnya, merupakan contoh dari cara-cara bertindak yang digemari oleh masyarakat sehingga dilakukan berulang-ulang. Apabila perbuatan tersebut tidak dilakukan, maka dianggap sebagai penyimpangan. Contoh tersebut menunjukkan jenis norma yang diterapkan adalah...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Usage/Cara</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Folkways/Kebiasaan</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Mores/Tata Kelakuan</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Custom/Adat</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis3" onsubmit = "periksa3()" action = "">
+            <p>3. Hal mendasar yang membedakan antara norma hukum  dan norma kebiasaan adalah...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Tempat</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Waktu</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Perintah</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Sanksi</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis4" onsubmit = "periksa4()" action = "">
+            <p>4. Media sosialisasi harus berperan membentuk kepribadian individu sehingga tidak berperilaku menyimpang. Oleh sebab itu televisi atau media massa lain harus bertanggungjawab dalam menjalankan fungsi….
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Memberikan ilmu pengetahuan</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Menanamkan nilai dan norma sosial</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Menyajikan hiburan popular dan/modern</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Menjelaskan hasil pembangunan</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis5" onsubmit = "periksa5()" action = "">
+            <p>5. Bapak dan ibu Sosro yang berasal dari Jawa Tengah mendidik putra dan putrinya secara adat/tradisi Kejawen, dengan menggunakan bahasa Jawa Kromo (bahasa yang halus) untuk berkomunikasi dengan yang lebih tua. Contoh tersebut menunjukkan adanya hubungan yang erat antara...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Sosialisasi dengan kebudayaan</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Kepribadian dengan kedaerahan</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Kebudayaan dengan keturunan</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Lingkungan dengan kebudayaan</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <script type="text/javascript">  
+
+            var detik = 0;
+
+            // dipanggil ketika halaman dimuat untuk memulai pewaktu
+            function mulaiPewaktu()
+            {
+            // 1000 milidetik = 1 setik
+            window.setInterval( "perbaruiWaktu()", 1000 );
+            } // akhir fungsi mulaiPewaktu
+
+            // dipanggil setiap 1000 milidetik untuk memperbarui pewaktu
+            function perbaruiWaktu()
+            {
+            ++detik;
+            document.getElementById( "sejauhIni" ).innerHTML = detik;
+            } // akhir fungsi perbaruiWaktu
+
+
+        </script>
+        <p>Waktu yang tersedia untuk mengisi soal:
+            <strong id = "sejauhIni">0</strong> <= 3600 detik</p> 
+    </body>
+</html>

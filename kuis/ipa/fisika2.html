@@ -1,0 +1,198 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- Gambar 8.12: kuis.html -->
+<!-- Kuis online dengan JavaScript. -->
+<html xmlns = "http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Fisika 2011</title>
+        <script type = "text/JavaScript">
+            
+            function periksa1()
+            {
+                var kuisKu = document.getElementById( "kuis1" );
+
+                // menentukan apakah jawaban benar
+                if ( kuisKu.elements[ 2 ].checked )
+                    alert( "Selamat, jawaban Anda benar" );
+                else // jika jawaban salah
+                    alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+           	function periksa2()
+            {
+                var kuisKu = document.getElementById( "kuis2" );
+
+                // menentukan apakah jawaban benar
+                if ( kuisKu.elements[ 3 ].checked )
+                    alert( "Selamat, jawaban Anda benar" );
+                else // jika jawaban salah
+                    alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+           	function periksa3()
+            {
+                var kuisKu = document.getElementById( "kuis3" );
+
+                // menentukan apakah jawaban benar
+                if ( kuisKu.elements[ 0 ].checked )
+                    alert( "Selamat, jawaban Anda benar" );
+                else // jika jawaban salah
+                    alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+           	function periksa4()
+            {
+                var kuisKu = document.getElementById( "kuis4" );
+
+                // menentukan apakah jawaban benar
+                if ( kuisKu.elements[ 1 ].checked )
+                    alert( "Selamat, jawaban Anda benar" );
+                else // jika jawaban salah
+                    alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+           	function periksa5()
+            {
+                var kuisKu = document.getElementById( "kuis5" );
+
+                // menentukan apakah jawaban benar
+                if ( kuisKu.elements[ 3 ].checked )
+                    alert( "Selamat, jawaban Anda benar" );
+                else // jika jawaban salah
+                    alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+           
+        </script>
+    </head>
+    <body onload = "mulaiPewaktu()">
+        <form id = "kuis1" onsubmit = "periksa1()" action = "">
+            <p>1. Seorang anak menjatuhkan sebuah batu dari ketinggian 20 m. Satu detik kemudian ia melemparkan
+sebuah batu lain ke bawah. Anggap tidak ada gesekan udara dan percepatan gravitasi 10 m/s2. Jika
+kedua batu tersebut mencapai tanah bersamaan, maka kelajuan awal batu kedua adalah ....
+			<br />
+               
+               <input type = "radio" name = "radiobutton" value = "1" />
+               <label>5 m/s</label>
+
+               <input type = "radio" name = "radiobutton" value = "2" />
+               <label>10 m/s</label>
+
+               <input type = "radio" name = "radiobutton" value = "3" />
+               <label>15 m/s</label>
+
+               <input type = "radio" name = "radiobutton" value = "4" />
+               <label>20 m/s</label><br />
+
+               <input type = "submit" name = "submit" value = "Submit" />
+               <input type = "reset" name = "reset" value = "Reset" />
+          </p>
+        </form>
+        <form id = "kuis2" onsubmit = "periksa2()" action = "">
+            <p>2. Lima kilogram es bersuhu −22°C dipanaskan sampai seluruh es tersebut mencair dengan suhu 0°C.
+Jika kalor laten es 333 kJ/kg dan kalor jenis es 2100 J/kg °C, maka jumlah kalor yang dibutuhkan
+adalah ....
+			<br />
+               
+               <input type = "radio" name = "radiobutton" value = "1" />
+               <label>1596 kJ</label>
+
+               <input type = "radio" name = "radiobutton" value = "2" />
+               <label>1696 kJ</label>
+
+               <input type = "radio" name = "radiobutton" value = "3" />
+               <label>1796 kJ</label>
+
+               <input type = "radio" name = "radiobutton" value = "4" />
+               <label>1896 kJ</label><br />
+
+               <input type = "submit" name = "submit" value = "Submit" />
+               <input type = "reset" name = "reset" value = "Reset" />
+          </p>
+        </form>
+        <form id = "kuis3" onsubmit = "periksa3()" action = "">
+            <p>3. Suatu mesin Carnot mempunyai efisiensi 30% dengan temperatur reservoir suhu tinggi sebesar
+750 K. Agar efisiensi mesin naik menjadi 50%, maka temperatur reservoir suhu tinggi harus
+dinaikkan menjadi ....
+			<br />
+               
+               <input type = "radio" name = "radiobutton" value = "1" />
+               <label>1050 K</label>
+
+               <input type = "radio" name = "radiobutton" value = "2" />
+               <label>1000 K</label>
+
+               <input type = "radio" name = "radiobutton" value = "3" />
+               <label>950 K</label>
+
+               <input type = "radio" name = "radiobutton" value = "4" />
+               <label>900 K</label><br />
+
+               <input type = "submit" name = "submit" value = "Submit" />
+               <input type = "reset" name = "reset" value = "Reset" />
+          </p>
+        </form>
+        <form id = "kuis4" onsubmit = "periksa4()" action = "">
+            <p>4. Sepotong gabus bergerak naik turun di permukaan air ketika dilewati sebuah gelombang.
+Gelombang tersebut menempuh jarak 9 m dalam waktu 30 s. Bila gabus tersebut bergerak naik
+turun 2 kali dalam 3 s, maka nilai panjang gelombang tersebut adalah ...
+			<br />
+               
+               <input type = "radio" name = "radiobutton" value = "1" />
+               <label>30 cm</label>
+
+               <input type = "radio" name = "radiobutton" value = "2" />
+               <label>45 cm</label>
+
+               <input type = "radio" name = "radiobutton" value = "3" />
+               <label>60 cm</label>
+
+               <input type = "radio" name = "radiobutton" value = "4" />
+               <label>75 cm</label><br />
+
+               <input type = "submit" name = "submit" value = "Submit" />
+               <input type = "reset" name = "reset" value = "Reset" />
+          </p>
+        </form>
+        <form id = "kuis5" onsubmit = "periksa5()" action = "">
+            <p>5. Sebuah kumparan mempunyai induktasi 700 mH. Besar GGL induksi yang dibangkitkan dalam kumparan itu jika ada perubahan arus listrik dari 200 mA menjadi 80 mA dalam waktu 0,02 sekon
+secara beraturan adalah...
+			<br />
+               
+               <input type = "radio" name = "radiobutton" value = "1" />
+               <label>7,2 v</label>
+
+               <input type = "radio" name = "radiobutton" value = "2" />
+               <label>6.2 v</label>
+
+               <input type = "radio" name = "radiobutton" value = "3" />
+               <label>5,2 v</label>
+
+               <input type = "radio" name = "radiobutton" value = "4" />
+               <label>4,2 v</label><br />
+
+               <input type = "submit" name = "submit" value = "Submit" />
+               <input type = "reset" name = "reset" value = "Reset" />
+          </p>
+        </form>
+        <script type="text/javascript">  
+		 
+            var detik = 0;
+
+            // dipanggil ketika halaman dimuat untuk memulai pewaktu
+            function mulaiPewaktu()
+            {
+                // 1000 milidetik = 1 setik
+                window.setInterval( "perbaruiWaktu()", 1000 );
+            } // akhir fungsi mulaiPewaktu
+
+            // dipanggil setiap 1000 milidetik untuk memperbarui pewaktu
+            function perbaruiWaktu()
+            {
+                ++detik;
+                document.getElementById( "sejauhIni" ).innerHTML = detik;
+            } // akhir fungsi perbaruiWaktu
+            
+
+        </script>
+<p>Waktu yang tersedia untuk mengisi soal:
+        <strong id = "sejauhIni">0</strong> <= 3600 detik</p> 
+		</body>
+</html>

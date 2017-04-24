@@ -1,0 +1,194 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- Gambar 8.12: kuis.html -->
+<!-- Kuis online dengan JavaScript. -->
+<html xmlns = "http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Bahasa Inggris 2012/title>
+        <script type = "text/JavaScript">
+
+            function periksa1()
+            {
+            var kuisKu = document.getElementById( "kuis1" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 1 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa2()
+            {
+            var kuisKu = document.getElementById( "kuis2" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 1 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa3()
+            {
+            var kuisKu = document.getElementById( "kuis3" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 0 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa4()
+            {
+            var kuisKu = document.getElementById( "kuis4" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 0 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa5()
+            {
+            var kuisKu = document.getElementById( "kuis5" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 2 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+
+        </script>
+    </head>
+    <body onload = "mulaiPewaktu()">
+        <form id = "kuis1" onsubmit = "periksa1()" action = "">
+            <p>1. Colours, hair, and jewellery are frequently determined by a person’s sex. This is not always true for all cultures, ad it ii not even true now throughout the United States. In this country, there were protests to bring about a change from these culturally strict norms. The ‘anti military’ attitudes of the 1960’s and the 1970’s sought to break with the military tradition masculine or ‘macho’ position, thus making it more acceptable for men to wear floral designs on their shirts in pinks, purples, violets, and other ‘feminine colours’. For some people, long hair and jewellery on men also became acceptable as a means of expressing this changed way of thinking. More facial hair also became common, precisely because it differed from the military norm. The business world, however, has been slow to change. 
+ 	____________________. 
+ 	
+ 	. What is the topic of the text? 
+
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>The change in gender-based attitude in the U.S. </label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Jewellery as a means of expressing thoughts</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Feminine colours versus masculine colours. </label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>The anti military movement in the U.S. </label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis2" onsubmit = "periksa2()" action = "">
+            <p>2.  With which of the following sentences should the text end? 
+ 	In most offices today, _____ 
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>wearing a bright colours, jewellery, and long hair is still not acceptable for men </label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>men and women have the same right in deciding the color of their rooms </label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>men are free to wear bright and colorful shirts</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>bright colours are used in the working areas as well as in the common room </label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis3" onsubmit = "periksa3()" action = "">
+            <p>3.  According the passage, what can be said about transportation process that results in amber? 
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>It is magical</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>It is made into jewelry </label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>It is a very lengthy one </label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>It is not take too long</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis4" onsubmit = "periksa4()" action = "">
+            <p>4. Which of the following can not be inferred from the passage? 
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Amber is of interest for a number of reasons </label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Not amber has the same characteristic</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>When amber is rubbed, it produced electricity </label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Only insect fossils are found in amber </label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis5" onsubmit = "periksa5()" action = "">
+            <p>5.  The characteristic of amber vary according to………. 
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Where it is found</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>How old it is</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>How hard it is to find </label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Where it is solds</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <script type="text/javascript">  
+
+            var detik = 0;
+
+            // dipanggil ketika halaman dimuat untuk memulai pewaktu
+            function mulaiPewaktu()
+            {
+            // 1000 milidetik = 1 setik
+            window.setInterval( "perbaruiWaktu()", 1000 );
+            } // akhir fungsi mulaiPewaktu
+
+            // dipanggil setiap 1000 milidetik untuk memperbarui pewaktu
+            function perbaruiWaktu()
+            {
+            ++detik;
+            document.getElementById( "sejauhIni" ).innerHTML = detik;
+            } // akhir fungsi perbaruiWaktu
+
+
+        </script>
+        <p>Waktu yang tersedia untuk mengisi soal:
+            <strong id = "sejauhIni">0</strong> <= 3600 detik</p> 
+    </body>
+</html>

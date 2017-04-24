@@ -1,0 +1,189 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- Gambar 8.12: kuis.html -->
+<!-- Kuis online dengan JavaScript. -->
+<html xmlns = "http://www.w3.org/1999/xhtml">
+    <head>
+        <title>TPA 2012</title>
+        <script type = "text/JavaScript">
+            
+            function periksa1()
+            {
+                var kuisKu = document.getElementById( "kuis1" );
+
+                // menentukan apakah jawaban benar
+                if ( kuisKu.elements[ 2 ].checked )
+                    alert( "Selamat, jawaban Anda benar" );
+                else // jika jawaban salah
+                    alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+           	function periksa2()
+            {
+                var kuisKu = document.getElementById( "kuis2" );
+
+                // menentukan apakah jawaban benar
+                if ( kuisKu.elements[ 3 ].checked )
+                    alert( "Selamat, jawaban Anda benar" );
+                else // jika jawaban salah
+                    alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+           	function periksa3()
+            {
+                var kuisKu = document.getElementById( "kuis3" );
+
+                // menentukan apakah jawaban benar
+                if ( kuisKu.elements[ 0 ].checked )
+                    alert( "Selamat, jawaban Anda benar" );
+                else // jika jawaban salah
+                    alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+           	function periksa4()
+            {
+                var kuisKu = document.getElementById( "kuis4" );
+
+                // menentukan apakah jawaban benar
+                if ( kuisKu.elements[ 1 ].checked )
+                    alert( "Selamat, jawaban Anda benar" );
+                else // jika jawaban salah
+                    alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+           	function periksa5()
+            {
+                var kuisKu = document.getElementById( "kuis5" );
+
+                // menentukan apakah jawaban benar
+                if ( kuisKu.elements[ 3 ].checked )
+                    alert( "Selamat, jawaban Anda benar" );
+                else // jika jawaban salah
+                    alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+           
+        </script>
+    </head>
+    <body onload = "mulaiPewaktu()">
+        <form id = "kuis1" onsubmit = "periksa1()" action = "">
+            <p>1.  Sebuah toko menjual 4 jenis roti A, B, C, dan D. Setiap pembelian roti mendapat poin. Pembelian satu roti mendapat 2 poin,     pembelian dua roti poin (kecuali roti A dan D 30 poin), tiga jenis roti 20 poin, dan empat jenis roti 30 poin. Adi ingin membeli    keempat jenis roti. Kombinasi pembelian seperti apakah yang memberikan poin paling banyak?  
+			<br />
+               
+               <input type = "radio" name = "radiobutton" value = "1" />
+               <label>Pembelian empat roti secara bersamaan. </label>
+
+               <input type = "radio" name = "radiobutton" value = "2" />
+               <label>Pembelian tiga roti, dilanjutkan satu roti.</label>
+
+               <input type = "radio" name = "radiobutton" value = "3" />
+               <label> Pembelian roti A & C dilanjutkan pembelian roti B & D.  </label>
+
+               <input type = "radio" name = "radiobutton" value = "4" />
+               <label>Pembellan roti A & D dilanjutkan pembelian roti B & C.  </label><br />
+
+               <input type = "submit" name = "submit" value = "Submit" />
+               <input type = "reset" name = "reset" value = "Reset" />
+          </p>
+        </form>
+        <form id = "kuis2" onsubmit = "periksa2()" action = "">
+            <p>2. Budi harus mengantarkan pesanan makanan setiap pagi ke empat puluh pelanggan. la menghabiskan waktu empat jam sebap harinya untuk mengantarkan pesanan ke se- luruh pelanggan, Jika ia sedang berhalangan atau sakit, ia meminta bantuan kepada      temannya yang bernama Tomi. la tinggal di jalan yang sama dengan Budi dan akan menggantikan tugas pengantaran tersebut.   Berdasarkan inforrnasi di atas, pernyataan di bawah ini yang paling tepat adalah... 
+			<br />
+               
+               <input type = "radio" name = "radiobutton" value = "1" />
+               <label>Tomi dan Budi tinggal bertetangga</label>
+
+               <input type = "radio" name = "radiobutton" value = "2" />
+               <label>Tomi mengantarkan pesanan lebih lama dibandingkan Budi</label>
+
+               <input type = "radio" name = "radiobutton" value = "3" />
+               <label>Tomi rnemitiki rute yang sama dengan Budi. </label>
+
+               <input type = "radio" name = "radiobutton" value = "4" />
+               <label>Tomi dan Budi barteman sejak lama</label><br />
+
+               <input type = "submit" name = "submit" value = "Submit" />
+               <input type = "reset" name = "reset" value = "Reset" />
+          </p>
+        </form>
+        <form id = "kuis3" onsubmit = "periksa3()" action = "">
+            <p>3. Prestasi belajar ira lebih tinggi dari Dika dan lebih rendah dari Tita. Prestasi belajar Cania lebih rendah dari lra tapi lebih tinggi dari Dika. Prestasi belajar Dani lebih tinggi dari Dika dan Cania. Tiga orang berprestasi       terbaik adalah...
+			<br />
+               
+               <input type = "radio" name = "radiobutton" value = "1" />
+               <label>Dani, ira, Tita </label>
+
+               <input type = "radio" name = "radiobutton" value = "2" />
+               <label>Dani, Dika, Tita</label>
+
+               <input type = "radio" name = "radiobutton" value = "3" />
+               <label>Ira, Dika, Tita</label>
+
+               <input type = "radio" name = "radiobutton" value = "4" />
+               <label>Dani</label><br />
+
+               <input type = "submit" name = "submit" value = "Submit" />
+               <input type = "reset" name = "reset" value = "Reset" />
+          </p>
+        </form>
+        <form id = "kuis4" onsubmit = "periksa4()" action = "">
+            <p>4.  Rumah Toni dekat dengan rumah Dodo,  namun jauh dari sekolah. Rumah Tina dekat dengan sekolah, namun tidak lebih dekat daripada rumah Wiwik. Kesimpulan yang paling tepat adalah ... 
+			<br />
+               
+               <input type = "radio" name = "radiobutton" value = "1" />
+               <label>Rumah Toni jauh dari rumah Wiwik.</label>
+
+               <input type = "radio" name = "radiobutton" value = "2" />
+               <label>Rumah Toni dekat dengan rumah Tin</label>
+
+               <input type = "radio" name = "radiobutton" value = "3" />
+               <label>Rumah Wiwik jauh dari rumah Tina. </label>
+
+               <input type = "radio" name = "radiobutton" value = "4" />
+               <label>Rumah Tina paling dekat dengan sekolah.  </label><br />
+
+               <input type = "submit" name = "submit" value = "Submit" />
+               <input type = "reset" name = "reset" value = "Reset" />
+          </p>
+        </form>
+        <form id = "kuis5" onsubmit = "periksa5()" action = "">
+            <p>5. Budi harus mengantarkan pesanan makanan setiap pagi ke empat puluh pelanggan. la menghabiskan waktu empat jam sebap harinya untuk mengantarkan pesanan ke se- luruh pelanggan, Jika ia sedang berhalangan atau sakit, ia meminta bantuan kepada      temannya yang bernama Tomi. la tinggal di jalan yang sama dengan Budi dan akan menggantikan tugas pengantaran tersebut.   Berdasarkan inforrnasi di atas, pernyataan di bawah ini yang paling tepat adalah...  
+			<br />
+               
+               <input type = "radio" name = "radiobutton" value = "1" />
+               <label>Tomi dan Budi tinggal bertetangga</label>
+
+               <input type = "radio" name = "radiobutton" value = "2" />
+               <label>Tomi dan Budi teman sejak lama</label>
+
+               <input type = "radio" name = "radiobutton" value = "3" />
+               <label>Tomi dan Budi tidak tinggal bertetangga</label>
+
+               <input type = "radio" name = "radiobutton" value = "4" />
+               <label>Tomi dan Budi teman sekelas</label><br />
+
+               <input type = "submit" name = "submit" value = "Submit" />
+               <input type = "reset" name = "reset" value = "Reset" />
+          </p>
+        </form>
+        <script type="text/javascript">  
+		 
+            var detik = 0;
+
+            // dipanggil ketika halaman dimuat untuk memulai pewaktu
+            function mulaiPewaktu()
+            {
+                // 1000 milidetik = 1 setik
+                window.setInterval( "perbaruiWaktu()", 1000 );
+            } // akhir fungsi mulaiPewaktu
+
+            // dipanggil setiap 1000 milidetik untuk memperbarui pewaktu
+            function perbaruiWaktu()
+            {
+                ++detik;
+                document.getElementById( "sejauhIni" ).innerHTML = detik;
+            } // akhir fungsi perbaruiWaktu
+            
+
+        </script>
+<p>Waktu yang tersedia untuk mengisi soal:
+        <strong id = "sejauhIni">0</strong> <= 3600 detik</p> 
+		</body>
+</html>

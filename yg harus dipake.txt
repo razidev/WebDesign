@@ -1,0 +1,6 @@
+yang di pake tugas akhir
+alamat lokasi:
+bootstrap-3.3.1/js/tests/visual/tab.html //sudah
+bootstrap-3.3.1/js/tests/visual/button.html
+bootstrap-3.3.1/js/tests/visual/collapse.html
+bootstrap-3.3.1/js/tests/visual/modal.html

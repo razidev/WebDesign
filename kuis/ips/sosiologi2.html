@@ -1,0 +1,189 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- Gambar 8.12: kuis.html -->
+<!-- Kuis online dengan JavaScript. -->
+<html xmlns = "http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Sosiologi 2011</title>
+        <script type = "text/JavaScript">
+
+            function periksa1()
+            {
+            var kuisKu = document.getElementById( "kuis1" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 0 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa2()
+            {
+            var kuisKu = document.getElementById( "kuis2" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 1 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa3()
+            {
+            var kuisKu = document.getElementById( "kuis3" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 0 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa4()
+            {
+            var kuisKu = document.getElementById( "kuis4" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 2 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa5()
+            {
+            var kuisKu = document.getElementById( "kuis5" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 3 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+
+        </script>
+    </head>
+    <body onload = "mulaiPewaktu()">
+        <form id = "kuis1" onsubmit = "periksa1()" action = "">
+            <p>1.Supaya tidak terjadi penyimpangan lebih lanjut guru pengawas memperingatkan siswa yang menyontek ketika mengikuti ulangan semester. Bentuk pengendalian sosial tersebut adalah...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Teguran lisan</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Desas desus</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Perjanjian</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Hukuman</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis2" onsubmit = "periksa2()" action = "">
+            <p>2. Sesuai dengan tujuan kepolisian dalam hal mewujudkan keamanan lingkungan, seorang polisi memberhentikan dan memeriksa kelengkapan kendaraan. Hal ini dilakukan untuk menindak para pengemudi yang melanggar peraturan. Model pengendalian sosial yang dilakukan tersebut bersifat...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Represif</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Preventif</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Progresif</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Perusasif</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis3" onsubmit = "periksa3()" action = "">
+            <p>3. Penggolongan masyarakat ke dalam ras Kaukasoid, ras Monggoloid, ras Negroid, ras Melanosoid, ras Australoid, merupakan bagian dari keberagaman sosial yang menggunakan parameter...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Ciri kebudayaan</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Ciri ritual</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Ciri fisik</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Status sosial</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis4" onsubmit = "periksa4()" action = "">
+            <p>4. Seorang guru bertugas di daerah pinggiran kota pindah tugas ke sekolah tengah kota sebagai kepala sekolah. Mobilitas yang dialami guru tersebut menggunakan saluran...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Militer</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Profesi</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Ekonomi</label>
+
+                    <input type = "radio" name = "radiobutton" value = "4" />
+                    <label>Pendidikan</label><br />
+
+                    <input type = "submit" name = "submit" value = "Submit" />
+                    <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis5" onsubmit = "periksa5()" action = "">
+            <p>5. Cara yang tepat untuk membangun sistem pemerintahan yang kuat pada negara yang memiliki rakyat multikultural yaitu dengan dibentuk koalisi etnik. Bentuk konfigurasi pemerintahan yang dimaksud adalah...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>minoritas dominan</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Fragmentasi sosial</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Komposisi seimbang</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Masyarakat majemuk</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <script type="text/javascript">  
+
+            var detik = 0;
+
+            // dipanggil ketika halaman dimuat untuk memulai pewaktu
+            function mulaiPewaktu()
+            {
+            // 1000 milidetik = 1 setik
+            window.setInterval( "perbaruiWaktu()", 1000 );
+            } // akhir fungsi mulaiPewaktu
+
+            // dipanggil setiap 1000 milidetik untuk memperbarui pewaktu
+            function perbaruiWaktu()
+            {
+            ++detik;
+            document.getElementById( "sejauhIni" ).innerHTML = detik;
+            } // akhir fungsi perbaruiWaktu
+
+
+        </script>
+        <p>Waktu yang tersedia untuk mengisi soal:
+            <strong id = "sejauhIni">0</strong> <= 3600 detik</p> 
+    </body>
+</html>

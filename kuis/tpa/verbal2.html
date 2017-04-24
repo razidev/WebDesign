@@ -1,0 +1,190 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- Gambar 8.12: kuis.html -->
+<!-- Kuis online dengan JavaScript. -->
+<html xmlns = "http://www.w3.org/1999/xhtml">
+    <head>
+        <title>TPA 2011</title>
+        <script type = "text/JavaScript">
+            
+            function periksa1()
+            {
+                var kuisKu = document.getElementById( "kuis1" );
+
+                // menentukan apakah jawaban benar
+                if ( kuisKu.elements[ 2 ].checked )
+                    alert( "Selamat, jawaban Anda benar" );
+                else // jika jawaban salah
+                    alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+           	function periksa2()
+            {
+                var kuisKu = document.getElementById( "kuis2" );
+
+                // menentukan apakah jawaban benar
+                if ( kuisKu.elements[ 3 ].checked )
+                    alert( "Selamat, jawaban Anda benar" );
+                else // jika jawaban salah
+                    alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+           	function periksa3()
+            {
+                var kuisKu = document.getElementById( "kuis3" );
+
+                // menentukan apakah jawaban benar
+                if ( kuisKu.elements[ 0 ].checked )
+                    alert( "Selamat, jawaban Anda benar" );
+                else // jika jawaban salah
+                    alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+           	function periksa4()
+            {
+                var kuisKu = document.getElementById( "kuis4" );
+
+                // menentukan apakah jawaban benar
+                if ( kuisKu.elements[ 1 ].checked )
+                    alert( "Selamat, jawaban Anda benar" );
+                else // jika jawaban salah
+                    alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+           	function periksa5()
+            {
+                var kuisKu = document.getElementById( "kuis5" );
+
+                // menentukan apakah jawaban benar
+                if ( kuisKu.elements[ 3 ].checked )
+                    alert( "Selamat, jawaban Anda benar" );
+                else // jika jawaban salah
+                    alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+           
+        </script>
+    </head>
+    <body onload = "mulaiPewaktu()">
+        <form id = "kuis1" onsubmit = "periksa1()" action = "">
+            <p>1. Suatu persegi A mempunyai sisi x dan persegi panjang B mempunyai panjang y dua kali lebar persegi A, maka.....
+			<br />
+               
+               <input type = "radio" name = "radiobutton" value = "1" />
+               <label>2x sama dengan y </label>
+
+               <input type = "radio" name = "radiobutton" value = "2" />
+               <label>x lebih besar dari y  </label>
+
+               <input type = "radio" name = "radiobutton" value = "3" />
+               <label>x sama dengan 2y</label>
+
+               <input type = "radio" name = "radiobutton" value = "4" />
+               <label>x sama dengan 4y</label><br />
+
+               <input type = "submit" name = "submit" value = "Submit" />
+               <input type = "reset" name = "reset" value = "Reset" />
+          </p>
+        </form>
+        <form id = "kuis2" onsubmit = "periksa2()" action = "">
+            <p>2. 16,67% dari 768 adalah...
+			<br />
+               
+               <input type = "radio" name = "radiobutton" value = "1" />
+               <label>78</label>
+
+               <input type = "radio" name = "radiobutton" value = "2" />
+               <label>108</label>
+
+               <input type = "radio" name = "radiobutton" value = "3" />
+               <label>128</label>
+
+               <input type = "radio" name = "radiobutton" value = "4" />
+               <label>148</label><br />
+
+               <input type = "submit" name = "submit" value = "Submit" />
+               <input type = "reset" name = "reset" value = "Reset" />
+          </p>
+        </form>
+        <form id = "kuis3" onsubmit = "periksa3()" action = "">
+            <p>3. Sinonim dari DILEMA = ...  
+            </p>
+			<br />
+               
+               <input type = "radio" name = "radiobutton" value = "1" />
+               <label> Lengkap</label>
+
+               <input type = "radio" name = "radiobutton" value = "2" />
+               <label>Perdana </label>
+
+               <input type = "radio" name = "radiobutton" value = "3" />
+               <label>Galau</label>
+
+               <input type = "radio" name = "radiobutton" value = "4" />
+               <label>Parlemen</label><br />
+
+               <input type = "submit" name = "submit" value = "Submit" />
+               <input type = "reset" name = "reset" value = "Reset" />
+          </p>
+        </form>
+        <form id = "kuis4" onsubmit = "periksa4()" action = "">
+            <p>4.  Untuk mengisi penuh sebuah bak air Ira membutuhkan 8 ember air.. Jika Ola memiliki ember yang besarnya hanya    setengah dari milik Ira, berapa ember air yang Ola butuhkan untuk mengisi penuh bak tersebut? 
+			<br />
+               
+               <input type = "radio" name = "radiobutton" value = "1" />
+               <label>8/label>
+
+               <input type = "radio" name = "radiobutton" value = "2" />
+               <label>10</label>
+
+               <input type = "radio" name = "radiobutton" value = "3" />
+               <label>12</label>
+
+               <input type = "radio" name = "radiobutton" value = "4" />
+               <label>14</label><br />
+
+               <input type = "submit" name = "submit" value = "Submit" />
+               <input type = "reset" name = "reset" value = "Reset" />
+          </p>
+        </form>
+        <form id = "kuis5" onsubmit = "periksa5()" action = "">
+            <p>5. Jika x = 90 % z dan y = 9x maka ....
+			<br />
+               
+               <input type = "radio" name = "radiobutton" value = "1" />
+               <label>y < z</label>
+
+               <input type = "radio" name = "radiobutton" value = "2" />
+               <label>y = 2 za</label>
+
+               <input type = "radio" name = "radiobutton" value = "3" />
+               <label>y = ½ z</label>
+
+               <input type = "radio" name = "radiobutton" value = "4" />
+               <label>y = z – y</label><br />
+
+               <input type = "submit" name = "submit" value = "Submit" />
+               <input type = "reset" name = "reset" value = "Reset" />
+          </p>
+        </form>
+        <script type="text/javascript">  
+		 
+            var detik = 0;
+
+            // dipanggil ketika halaman dimuat untuk memulai pewaktu
+            function mulaiPewaktu()
+            {
+                // 1000 milidetik = 1 setik
+                window.setInterval( "perbaruiWaktu()", 1000 );
+            } // akhir fungsi mulaiPewaktu
+
+            // dipanggil setiap 1000 milidetik untuk memperbarui pewaktu
+            function perbaruiWaktu()
+            {
+                ++detik;
+                document.getElementById( "sejauhIni" ).innerHTML = detik;
+            } // akhir fungsi perbaruiWaktu
+            
+
+        </script>
+<p>Waktu yang tersedia untuk mengisi soal:
+        <strong id = "sejauhIni">0</strong> <= 3600 detik</p> 
+		</body>
+</html>

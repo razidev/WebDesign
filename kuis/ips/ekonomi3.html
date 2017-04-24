@@ -1,0 +1,196 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- Gambar 8.12: kuis.html -->
+<!-- Kuis online dengan JavaScript. -->
+<html xmlns = "http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Ekonomi 2012</title>
+        <script type = "text/JavaScript">
+
+            function periksa1()
+            {
+            var kuisKu = document.getElementById( "kuis1" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 2 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa2()
+            {
+            var kuisKu = document.getElementById( "kuis2" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 3 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa3()
+            {
+            var kuisKu = document.getElementById( "kuis3" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 1 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa4()
+            {
+            var kuisKu = document.getElementById( "kuis4" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 1 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa5()
+            {
+            var kuisKu = document.getElementById( "kuis5" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 3 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+
+        </script>
+    </head>
+    <body onload = "mulaiPewaktu()">
+        <form id = "kuis1" onsubmit = "periksa1()" action = "">
+            <p>1. Sudah 3 tahun Nita berkerja pada biro perjalanan di Korea Selatan, ia mengirim uang hasil bekerja kepada orang tuanya sejumlah US$5.000,00. Jika uang tersebut ditukarkan dengan rupiah dengan kurs beli $1 = Rp8.700,00 kurs jual $1 = Rp8.900,00 dan kurs tengah $1 = Rp8.800,00, maka orang tua Nita akan memperoleh ...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Rp44.500.000,00</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Rp44.000.000,00</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Rp43.500.000,00</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Rp1.000.000,00</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis2" onsubmit = "periksa2()" action = "">
+            <p>2.  Perkembangan investasi di Indonesia saat ini dinilai sangat baik, hal tersebut ditunjukan dengan meningkatnya investor asing menanamkan modalnya di Indonesia. Kondisi ini dalam neraca pembayaran akan dicatat pada sisi ...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Debet neraca berjalan</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Kredit neraca berjalan</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Debet neraca modal</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Kredit neraca modal</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis3" onsubmit = "periksa3()" action = "">
+            <p>3.  Pada tanggal 16 September 2011 dibeli kertas HVS sebesar Rp. 1.000.000,00 dibayar tunai Rp.
+600.000,00 dan sisanya dibayar sebulan kemudian. Perubahan transaksi dalam persamaan
+akuntansi ...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Kas berkurang (-) Rp. 600.000,00, kewajiban bertambah (+) Rp. 400.000,00 Kertas bertambah (+)Rp.1.000.000,00</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Kas berkurang (-) Rp. 600.000,00, kewajiban bertambah (+) Rp. 400.000,00 dan perlengkapan kantor bertambah (+) Rp. 1.000.000,00</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Kas berkurang (-) Rp. 600.000,00, kewajiban berkurang (-) Rp. 400.000,00 dan perlengkapan kantor berkurang (-) Rp. 1.000.000,00</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Kewajiban bertambah (+) Rp. 400.000,00, kas bertambah (+) Rp 600.000,00 dan perlengkapan kantor bertambah (+) Rp. 1.000.000,00</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis4" onsubmit = "periksa4()" action = "">
+            <p>4. CV Prima mempunyai data keuangan antara lain sebagai berikut
+                <p>- Modal awal Rp21.900.000,00</p>
+                <p>- Pendapatan Rp9.800.000,00</p>
+                <p>- Pengambilan prive Rp2.000.000,00</p>
+                <p>- Modal akhir Rp24.700.000,00</p>
+                <p>Berdasarkan data tersebut maka besarnya beban usaha adalah ....</p>
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Rp4.800.000,00</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Rp5.000.000,00</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Rp10.600.000,00</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Rp12.600.000,00</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis5" onsubmit = "periksa5()" action = "">
+            <p>5.  Untuk meningkatkan kesejahteran para petani cengkeh mendirikan koperasi yang diberi nama Koperasi Cengkeh Mandiri. Pendirian koperasi ini dalam rangka membantu para petani pemasaran hasil cengkeh dan penyediaan bibit cengkeh yang bermutu. Koperasi yang didirikan tersebut merupakan ....
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>induk koperasi</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>pusat koperasi</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>gabungan koperasi</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>koperasi primer</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <script type="text/javascript">  
+
+            var detik = 0;
+
+            // dipanggil ketika halaman dimuat untuk memulai pewaktu
+            function mulaiPewaktu()
+            {
+            // 1000 milidetik = 1 setik
+            window.setInterval( "perbaruiWaktu()", 1000 );
+            } // akhir fungsi mulaiPewaktu
+
+            // dipanggil setiap 1000 milidetik untuk memperbarui pewaktu
+            function perbaruiWaktu()
+            {
+            ++detik;
+            document.getElementById( "sejauhIni" ).innerHTML = detik;
+            } // akhir fungsi perbaruiWaktu
+
+
+        </script>
+        <p>Waktu yang tersedia untuk mengisi soal:
+            <strong id = "sejauhIni">0</strong> <= 3600 detik</p> 
+    </body>
+</html>

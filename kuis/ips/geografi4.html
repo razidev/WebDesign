@@ -1,0 +1,189 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- Gambar 8.12: kuis.html -->
+<!-- Kuis online dengan JavaScript. -->
+<html xmlns = "http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Geografi 2013</title>
+        <script type = "text/JavaScript">
+
+            function periksa1()
+            {
+            var kuisKu = document.getElementById( "kuis1" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 1 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa2()
+            {
+            var kuisKu = document.getElementById( "kuis2" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 1 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa3()
+            {
+            var kuisKu = document.getElementById( "kuis3" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 0 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa4()
+            {
+            var kuisKu = document.getElementById( "kuis4" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 0 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa5()
+            {
+            var kuisKu = document.getElementById( "kuis5" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 2 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+
+        </script>
+    </head>
+    <body onload = "mulaiPewaktu()">
+        <form id = "kuis1" onsubmit = "periksa1()" action = "">
+            <p>1. Komponen yang paling menentukan dalam lingkungan hidup untuk menjaga dan melestarikankualitas lingkungan hidup adalah...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Air</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Tanah</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Hewan</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Manusia</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis2" onsubmit = "periksa2()" action = "">
+            <p>2.  Bahan yang menyebabkan terjadinya pencemaran dinamakan...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Polusi</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Polutan</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Slum area</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Limbah</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis3" onsubmit = "periksa3()" action = "">
+            <p>3.  Yang bukan merupakan identifikasi konservasi sumber daya alam hayati dan ekosistemnyaadalah ...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>pemanfaatan secara lestari</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>optimalisasi daerah perindustrian</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>perlindungan sistem penyangga kehidupan</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>pengawetan keanekaragaman hewan dan ekosistemnya</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis4" onsubmit = "periksa4()" action = "">
+            <p>4. Berikut ini merupakan komponen lingkungan hidup abiotis,Kecuali...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>hidrosfera</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>atmosfera</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>litosfera</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>barisfera</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis5" onsubmit = "periksa5()" action = "">
+            <p>5.  Kesatuan ruang dengan semua benda, daya, keadaan dan makhluk hidup termasuk manusiadan perilakunya yang mempengaruhi kelangsungan hidup dan kesejahteraan manusia sertamahluk hidup lainnya disebut ...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>lingkungan hidup</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>kualitas lingkungan hidup</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>lingkungan abiotik</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>lingkungan biotic</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <script type="text/javascript">  
+
+            var detik = 0;
+
+            // dipanggil ketika halaman dimuat untuk memulai pewaktu
+            function mulaiPewaktu()
+            {
+            // 1000 milidetik = 1 setik
+            window.setInterval( "perbaruiWaktu()", 1000 );
+            } // akhir fungsi mulaiPewaktu
+
+            // dipanggil setiap 1000 milidetik untuk memperbarui pewaktu
+            function perbaruiWaktu()
+            {
+            ++detik;
+            document.getElementById( "sejauhIni" ).innerHTML = detik;
+            } // akhir fungsi perbaruiWaktu
+
+
+        </script>
+        <p>Waktu yang tersedia untuk mengisi soal:
+            <strong id = "sejauhIni">0</strong> <= 3600 detik</p> 
+    </body>
+</html>

@@ -1,0 +1,189 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- Gambar 8.12: kuis.html -->
+<!-- Kuis online dengan JavaScript. -->
+<html xmlns = "http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Ekonomi 2011</title>
+        <script type = "text/JavaScript">
+
+            function periksa1()
+            {
+            var kuisKu = document.getElementById( "kuis1" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 0 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa2()
+            {
+            var kuisKu = document.getElementById( "kuis2" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 3 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa3()
+            {
+            var kuisKu = document.getElementById( "kuis3" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 1 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa4()
+            {
+            var kuisKu = document.getElementById( "kuis4" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 1 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+            function periksa5()
+            {
+            var kuisKu = document.getElementById( "kuis5" );
+
+            // menentukan apakah jawaban benar
+            if ( kuisKu.elements[ 2 ].checked )
+            alert( "Selamat, jawaban Anda benar" );
+            else // jika jawaban salah
+            alert( "Jawaban Anda salah. Silahkan coba lagi" );
+            } // akhir fungsi periksaJawaban
+
+        </script>
+    </head>
+    <body onload = "mulaiPewaktu()">
+        <form id = "kuis1" onsubmit = "periksa1()" action = "">
+            <p>1. Seorang investor merasa perlu mengetahui informasi tentang pergerakan harga saham di Bursa Efek Jakarta, karena naik turunnya harga baginya mempengaruhi investasi yang telah ditanam. Hal tesebut merupakan satu contoh dari ....
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>ekonomi mikro</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>ekonomi makro</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>ekonomi pasar</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>ekonomi terapan</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis2" onsubmit = "periksa2()" action = "">
+            <p>2.  Pada tahun 2006 yang lalu Pemda DKI Jakarta menyatakan upah minimum sebesar Rp. 950.000,00 sedangkan Indeks Harga Konsumen 110% maka upah nyata sebenarnya diterima para buruh adalah ....
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Rp. 1.045.000,00</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Rp950.000,00</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Rp900.000,00</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Rp863.636,36</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis3" onsubmit = "periksa3()" action = "">
+            <p>3.  Pada saat penghasilan Bu Uswa Rp5.000.000,00 per bulan, dinyatakan fungsi konsumsinya C=1.000.000 + 0,7Y. Berdasarkan fungsi konsumsi tersebut besarnya tabungan Bu Uswa ketika penghasilannya naik menjadi Rp8.000.000,00 per bulan adalah ….
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>Rp500.000,00</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>Rp1.400.000,00</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>Rp1.900.000,00</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>Rp4.500.000,00</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis4" onsubmit = "periksa4()" action = "">
+            <p>4. Pada suatu daerah diketahui jumlah uang beredar Rp. 200.000.000.000,00, dan kecepatan peredaran uang 20 kali, sedangkan jumlah barang yang beredar adalah 200.000 unit, maka harga yang terbentuk dipasar adalah ....
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>10.000.000</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>20.000.000</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>100.000.000</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>120.000.000</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <form id = "kuis5" onsubmit = "periksa5()" action = "">
+            <p>5.  Dana yang berasal dari APBN dan dialokasikan kepada daerah dengan tujuan untuk pemerataan keuangan antar daerah disebut ...
+                <br />
+
+                <input type = "radio" name = "radiobutton" value = "1" />
+                <label>dana perimbangan</label>
+
+                <input type = "radio" name = "radiobutton" value = "2" />
+                <label>dana alokasi umum</label>
+
+                <input type = "radio" name = "radiobutton" value = "3" />
+                <label>dana alokasi khusus</label>
+
+                <input type = "radio" name = "radiobutton" value = "4" />
+                <label>subsidi</label><br />
+
+                <input type = "submit" name = "submit" value = "Submit" />
+                <input type = "reset" name = "reset" value = "Reset" />
+            </p>
+        </form>
+        <script type="text/javascript">  
+
+            var detik = 0;
+
+            // dipanggil ketika halaman dimuat untuk memulai pewaktu
+            function mulaiPewaktu()
+            {
+            // 1000 milidetik = 1 setik
+            window.setInterval( "perbaruiWaktu()", 1000 );
+            } // akhir fungsi mulaiPewaktu
+
+            // dipanggil setiap 1000 milidetik untuk memperbarui pewaktu
+            function perbaruiWaktu()
+            {
+            ++detik;
+            document.getElementById( "sejauhIni" ).innerHTML = detik;
+            } // akhir fungsi perbaruiWaktu
+
+
+        </script>
+        <p>Waktu yang tersedia untuk mengisi soal:
+            <strong id = "sejauhIni">0</strong> <= 3600 detik</p> 
+    </body>
+</html>
